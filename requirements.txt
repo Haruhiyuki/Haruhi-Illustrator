@@ -1,5 +1,5 @@
 google-generativeai
-bce-embedding
+BCEmbedding==0.1.5
 faiss-cpu
 Pillow
 numpy
