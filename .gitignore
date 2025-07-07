@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and OS specific files
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Gradio cache and logs
+.gradio_cache/
+gradio_cached_examples/
+.gradio
+
+# Local data and secrets (IMPORTANT!)
+/my_images/
+/dataset/
+*.faiss
+*.pkl
+*.json
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+/dist/
+/build/
+*.egg-info/
